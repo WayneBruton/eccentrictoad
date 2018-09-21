@@ -1,0 +1,52 @@
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eccentric Toad Contact</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+<header>
+  <h2><a href="/"><i class="fas fa-frog fa-2x" tabindex="1"></i>Eccentric Toad</a> </h2>
+  <nav>
+    <li><a href="/about">Samples</a></li>
+  </nav>
+</header>
+<section>
+  <div class="container">
+    <ul class="grid">
+      <li class="small" style="background-image: url(assets/img/IMG_3355.jpg);"></li>
+    </ul>
+    <button class="email" id="emailBtn" type="button" name="button"><a href="mailto:wayne@eccentrictoad.com?subject=Mail Question for Eccentric Toad">Email</a></button>
+    <label for="email" style="font-size: 20px;">Or fill in the contact form below:</label>
+    <h3 id="flashmessage"><%= message %></h3>
+  </div>                                              <!-- a href="mailto:webmaster@example.com" -->
+</section>
+
+<section>
+  <div class="container">
+  <form id="contact" action="/send-email" method="POST">
+    <h3>Quick Contact</h3>
+    <h4>Contact me today, and get reply with in 24 hours!</h4>
+    <p>
+      <input placeholder="Your name" type="text" tabindex="2" name="name" required autofocus>
+    </p>
+    <p>
+      <input placeholder="Your Email Address" type="email" tabindex="3" name="email" required>
+    </p>
+    <p>
+      <input placeholder="Your Phone Number" type="tel" tabindex="4" name="phone" required>
+    </p>
+      <textarea placeholder="Type your Message Here...." tabindex="5" name="message" required></textarea>
+    </p>
+    <p>
+      <button type="submit" id="contact-submit">Submit</button>
+    </p>
+  </form>
+</div>
+</section>
+
+  </body>
+</html>
