@@ -258,10 +258,20 @@ fieldset {
 .grid li {
   height: 350px;
   padding: 20px;
-  margin-top: 150px;
+  margin-top: 180px;
   background-clip: content-box;
   background-size: cover;
   background-position: top;
+  border: 3px solid #eee;
+  border-radius: 7px;
+}
+
+iframe {
+  width: 100%;
+}
+
+.youtube {
+  color: black;
 }
 
 
