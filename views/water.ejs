@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script src="../js/water.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="../js/moment.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="../assets/css/water.css">
+    <title>Cape Town Water</title>
+</head>
+<body>
+        <div id="type">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="display-1">Cape Town Water Crisis</h1>
+                    <hr>
+                    <h1 class="display-8">City Usage</h1>
+                    <div id="info">
+                        <div class="container city">
+                            <strong>Current:  </strong><label for="" id="cityUsageCurrent"></label><br>
+                            <strong>Target:   </strong><label for="" id="cityUsageTarget"></label>
+                        </div>
+                        <div id="cityUsage">  
+                        </div>
+                    </div>
+                    <hr>
+                    <h1 class="display-8">Dam Levels</h1>
+
+                    <div id="info">
+                        <div class="container city">
+                            <strong>Current:  </strong><label for="" id="damLevelCurrent"></label><br>
+                            <strong>Target:   </strong><label for="" id="damLevelPrevious"></label>
+                        </div>
+                        <div id="damLevel">
+                                
+                        </div>
+                    </div>
+                    <hr>
+                    <h1 class="display-8">Last Rain</h1>
+                        <div id="info">
+                            <div class="container city">
+                            <label for="" id="lastRain"></label>
+                            </div>
+                            <div>
+                                <i class="fas fa-cloud-sun-rain fa-3x"></i>
+                            </div>
+                        </div><hr>
+                    <h1 class="display-8">Last Updated</h1>
+                        <label for="" id="updated"></label><br>
+                       <strong>This site is updated weekly after the City of Cape Town releases their figures.</strong> 
+                </div>
+            </div>
+    </div> 
+</body>
+</html>

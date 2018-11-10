@@ -1,0 +1,30 @@
+body {
+    background-color: #ddd;;
+}
+
+.test {
+    background-color: lightseagreen;
+    margin: 0.5%;
+}
+
+.d-flex {
+    flex-wrap: wrap;
+    /* margin: 0.5%; */
+    width: 100%;
+    padding:  1%;
+    justify-content: space-evenly;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+}
+
+.alert {
+    text-align: center;
+    display: none;
+}

@@ -43,6 +43,14 @@ app.get("/about", function(req, res){
  	res.render("about");
 });
 
+app.get("/water", function(req, res){
+	res.render("water");
+});
+
+app.get("/news", function(req, res){
+	res.render("news");
+});
+
 
 
 app.post('/send-email', (req,res) => {

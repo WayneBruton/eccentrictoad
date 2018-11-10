@@ -1,0 +1,35 @@
+body {
+    background-color: beige;
+    color: white;
+}
+
+.jumbotron {
+    background-color: blue;
+}
+
+.city {
+    display: none;
+}
+
+#type {
+    margin-top: 7.5px;
+    display: flex;
+    justify-content: center;
+}
+
+#info {
+    display: flex;
+}
+
+.fas {
+    display: none;
+}
+
+hr {
+    display: none;
+    background-color: white;
+}
+
+/* .container {
+    display: none;
+} */

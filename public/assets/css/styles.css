@@ -190,7 +190,7 @@ header nav li {
 }
 
 @media (max-width: 800px) {
-  .hero {
+  .samples {
     min-height: 600px;
   }
   .hero h1 {
